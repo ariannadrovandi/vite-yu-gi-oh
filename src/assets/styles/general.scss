@@ -8,3 +8,7 @@ $fa-font-path: '../webfonts';
 
 @import '@fontsource/montserrat/index.css';
 @import '@fontsource/montserrat/700.css';
+
+body{
+    background-color: $bg-color;
+}
