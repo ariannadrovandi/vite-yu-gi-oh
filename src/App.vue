@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     getCards() {
-      const url = store.baseUrl;
+      const url = store.baseUrl + store.endpoint;
       axios.get(url).then((res) => {
         store.characterList = res.data.data;
       });

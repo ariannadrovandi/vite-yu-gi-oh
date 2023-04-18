@@ -1,7 +1,7 @@
 <template>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="character text-center">
-            <img :src="character.image_url" :alt="character.name">
+            <img :src="character.card_images" :alt="character.name">
             <h4>{{ character.name }}</h4>
             <div>{{ character.desc }}</div>
             <div class="font-weight-bold">{{ character.archetype }}</div>
