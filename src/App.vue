@@ -29,7 +29,7 @@ export default {
     getCards() {
       const url = store.baseUrl;
       axios.get(url).then((res) => {
-        store.characterList = res.data.results;
+        store.characterList = res.data.data;
       });
     }
   },
